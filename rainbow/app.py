@@ -26,7 +26,13 @@ def Green():
 def Blue():
     return render_template()
 
+@app.route('/Indigo')
+def Indigo():
+    return render_template()
 
+@app.route('/Violet')
+def Violet():
+    return render_template()
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
