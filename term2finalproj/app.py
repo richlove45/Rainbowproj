@@ -1,4 +1,5 @@
 from flask import Flask, render_template, current_app as app
+from sense_hat import SenseHat
 app = Flask(__name__)
 
 @app.route('/success/<name>')
